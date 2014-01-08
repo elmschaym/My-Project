@@ -1,0 +1,50 @@
+How to install:
+
+Run the DigitalClassroomManagerSetup.exe from the package.
+
+For the system to work, you must install the followin applications:
+1. JDK/JRE
+2. mySQL
+
+Installing JDK:
+
+Run the jdk-7u25-windows-i586
+
+if you are using a 64-bit based processor, you may download the JDK
+version for 64-bit processors at http://www.oracle.com
+
+
+Installing Database (mySQL)
+
+	Note: When asked during installation, use "root" as the username and password.
+	      Otherwise, the system might encounter an error!
+
+	1. Open the Installer folder then the MYSQL Database Installer.
+	2. Run the mySQL installer.
+
+	if you are using 32-bit based processor, use the file mysql-essential-5.1.39-win32.
+	if 64-bit based processor, use the mysql-essential-5.1.39-win32.
+
+	3. Run the mysql-gui-tools-5.0-r17-win32.
+
+
+After completing all the installation process,
+Run mySQL Administrator from your directory.
+Usually the path of your directory looks like this C:\Program Files\MySQL\MySQL Tools for 5.0\MySQL Administrator.exe.
+
+Click the restore button and then the Open Backup File button.
+Choose the Digital Classroom Manaer.sql included in the package.
+
+
+
+
+Default username		: administrator
+Default password		: password
+Default registration code	: msuCode
+
+
+Developers:
+
+	Lazim, Jabalnur
+	Petiilan, Samra
+	Rasuman, Elmer
